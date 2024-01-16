@@ -1,0 +1,47 @@
+.cartItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  .card {
+    margin: auto;
+  }
+
+    .details-container {
+      width: 60%;
+
+      .product-details {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .quantity-container {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .action-btns {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+.item-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.color-red {
+  color: red;
+}
+
+.color-green {
+  color: green;
+  margin-left: 0.5rem;
+}

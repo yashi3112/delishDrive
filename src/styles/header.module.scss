@@ -1,0 +1,25 @@
+.navbar-bg {
+  background-color: #3d5a80;
+  position: sticky !important;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-link {
+  color: #ffffff !important;
+}
+
+.checkout-nav {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.cart {
+  background: white;
+  color: black;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.3rem;
+  font-weight: bold;
+}
