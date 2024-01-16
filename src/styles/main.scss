@@ -1,0 +1,14 @@
+.body{
+    background-color: #98C1D9;
+    color: #2E2E2E ;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 1rem !important;
+}
+
+button:disabled {
+    cursor: not-allowed !important;
+}
