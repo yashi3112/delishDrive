@@ -10,10 +10,9 @@ function ProductList() {
     try {
       const res = await fetch(`/products.json`);
       const data = await res.json();
-      console.log("data", data);
       setProductList(data);
     } catch (err) {
-      console.log(err);
+      throw err;
     }
   };
   callAPI();
