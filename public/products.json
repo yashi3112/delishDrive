@@ -1,0 +1,44 @@
+[
+  {
+    "id":1,
+    "title": "HAWAIIAN",
+    "description": "Tomato sauce, mozzarella, ham & pineapple",
+    "price": 16.99,
+    "imagePath": "/assets/Pizza-1.jpeg"
+  },
+  {
+    "id":2,
+    "title": "Paneer",
+    "description": "Tomato sauce, mozzarella, paneer, pineapple* & bbq sauce",
+    "price": 19.99,
+    "imagePath": "/assets/Pizza-2.jpeg"
+  },
+  {
+    "id":3,
+    "title": "Cheese Pizza",
+    "description": "Traditional cheese pizza with marinara base.",
+    "price": 15.55,
+    "imagePath": "/assets/Pizza-5.jpeg"
+  },
+  {
+    "id":4,
+    "title": "Margherita Pizza",
+    "description": "Italian marinara base, topped with roma tomatoes & basil. Seasoned with oregano.",
+    "price": 17.99,
+    "imagePath": "/assets/Pizza-5.jpeg"
+  },
+  {
+    "id":5,
+    "title": "Farm Veggie Pizza",
+    "description": "Tomatoes, green pepper, mushroom, onion and green olives topped with marinara base sauce.",
+    "price": 18.99,
+    "imagePath": "/assets/Pizza-4.jpeg"
+  },
+  {
+    "id":6,
+    "title": "7 CHEESE PIZZA",
+    "description": "You are a cheese of my Pizza! let's try the seven different form of the heart of pizza(cheese)..",
+    "price": 19.99,
+    "imagePath": "/assets/Pizza-3.jpeg"
+  }
+]
