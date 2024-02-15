@@ -25,19 +25,21 @@ const CheckoutPage = () => {
   });
 
   const validateFormFields = (event: any) => {
+    /* eslint-disable  no-explicit-any */
     const { name, value } = event.target;
     if (!value) {
-      errors[name] = "required";
+      errors[name as keyof typeof errors] = "required";
     } else {
-      errors[name] = "";
+      errors[name as keyof typeof errors] = "";
     }
 
     setErrors((prevState) => {
       return {
         ...prevState,
-        [name]: errors[name],
+        [name]: errors[name as keyof typeof errors],
       };
     });
+    /* eslint-enable  no-explicit-any */
   };
 
   const {
